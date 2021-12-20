@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{91E589D3-1D7D-4414-ACF7-456CA2295B05}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>crosscut</RootNamespace>
+    <AssemblyName>crosscut</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>crosscut.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>crosscut.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net40\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Web.config" />
+    <Content Include="Wizards\ReservationsBooking\Default.aspx" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\css\materialize.css" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\css\materialize.min.css" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\anime.min.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\autocomplete.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\buttons.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\cards.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\carousel.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\cash.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\characterCounter.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\chips.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\collapsible.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\component.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\datepicker.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\dropdown.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\forms.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\global.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\materialbox.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\materialize.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\materialize.min.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\modal.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\parallax.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\pushpin.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\range.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\scrollspy.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\select.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\sidenav.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\slider.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\tabs.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\tapTarget.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\timepicker.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\toasts.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\tooltip.js" />
+    <Content Include="Wizards\ReservationsBooking\materialize-css\js\waves.js" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.js" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.min.js" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.slim.js" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.slim.min.js" />
+    <Content Include="Wizards\ReservationsBooking\Styles\Site.css" />
+    <Content Include="Wizards\ReservationsBooking\WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Wizards\ReservationsBooking\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ReservationsBooking\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wizards\ReservationsBooking\MasterPage.master.vb">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\ModuleCS.vb" />
+    <Compile Include="App_Code\TourCampaign.vb" />
+    <Compile Include="App_Code\BusCampaignPriceForVC.vb" />
+    <Compile Include="App_Code\clsAccom.vb" />
+    <Compile Include="App_Code\clsAccom2CheckInLocation.vb" />
+    <Compile Include="App_Code\clsAccom2Resort.vb" />
+    <Compile Include="App_Code\clsAccom2RoomType.vb" />
+    <Compile Include="App_Code\clsAccomAvailability.vb" />
+    <Compile Include="App_Code\clsAccomCheckInLocations.vb" />
+    <Compile Include="App_Code\clsAccommodation.vb" />
+    <Compile Include="App_Code\clsAddress.vb" />
+    <Compile Include="App_Code\clsAFC2CRMS.vb" />
+    <Compile Include="App_Code\clsAFCImports.vb" />
+    <Compile Include="App_Code\clsAltAccom.vb" />
+    <Compile Include="App_Code\clsBank2Room.vb" />
+    <Compile Include="App_Code\clsBankedUnits.vb" />
+    <Compile Include="App_Code\clsBillingCode2Personnel.vb" />
+    <Compile Include="App_Code\clsBoonesReview.vb" />
+    <Compile Include="App_Code\clsCalendarEvents.vb" />
+    <Compile Include="App_Code\clsCampaign.vb" />
+    <Compile Include="App_Code\clsCampaign2Department.vb" />
+    <Compile Include="App_Code\clsCancellationBatch.vb" />
+    <Compile Include="App_Code\clsCancellationBatch2Contract.vb" />
+    <Compile Include="App_Code\clsCCMerchantAccount.vb" />
+    <Compile Include="App_Code\clsCCTrans.vb" />
+    <Compile Include="App_Code\clsCCTransApplyTo.vb" />
+    <Compile Include="App_Code\clsCheckByPhone.vb" />
+    <Compile Include="App_Code\clsChecks.vb" />
+    <Compile Include="App_Code\clsClosingCostDefaults.vb" />
+    <Compile Include="App_Code\clsCombinedOverview.vb" />
+    <Compile Include="App_Code\clsCombinedOverviewAuto.vb" />
+    <Compile Include="App_Code\clsCombinedOverviewAutoBackup.vb" />
+    <Compile Include="App_Code\clsComboItems.vb" />
+    <Compile Include="App_Code\clsCombos.vb" />
+    <Compile Include="App_Code\clsCommentCardFields.vb" />
+    <Compile Include="App_Code\clsCommentCardFieldValues.vb" />
+    <Compile Include="App_Code\clsCommentCards.vb" />
+    <Compile Include="App_Code\clsComments.vb" />
+    <Compile Include="App_Code\clsContract.vb" />
+    <Compile Include="App_Code\clsContractAuthorizedUsers.vb" />
+    <Compile Include="App_Code\clsContractCoOwner.vb" />
+    <Compile Include="App_Code\clsContractMerge.vb" />
+    <Compile Include="App_Code\clsContractUpDownGrade.vb" />
+    <Compile Include="App_Code\clsConversion.vb" />
+    <Compile Include="App_Code\clsCreditCard.vb" />
+    <Compile Include="App_Code\clsCXLPender.vb" />
+    <Compile Include="App_Code\clsDID.vb" />
+    <Compile Include="App_Code\clsDocumentGroupItems.vb" />
+    <Compile Include="App_Code\clsDocumentGroups.vb" />
+    <Compile Include="App_Code\clsDoNotSellList.vb" />
+    <Compile Include="App_Code\clsDoNotSellListCodes.vb" />
+    <Compile Include="App_Code\clsEmail.vb" />
+    <Compile Include="App_Code\clsEmailTourPackage.vb" />
+    <Compile Include="App_Code\clsEnterBooking.vb" />
+    <Compile Include="App_Code\clsEvents.vb" />
+    <Compile Include="App_Code\clsFinancialAmount.vb" />
+    <Compile Include="App_Code\clsFinancials.vb" />
+    <Compile Include="App_Code\clsFinancialTransactionCodes.vb" />
+    <Compile Include="App_Code\clsFinTransCode2Tax.vb" />
+    <Compile Include="App_Code\clsFixedWeekCreation.vb" />
+    <Compile Include="App_Code\clsFrequency.vb" />
+    <Compile Include="App_Code\clsFunding.vb" />
+    <Compile Include="App_Code\clsGiftCard2Location.vb" />
+    <Compile Include="App_Code\clsGiftCards.vb" />
+    <Compile Include="App_Code\clsGlobalCalendar.vb" />
+    <Compile Include="App_Code\clsgolfCourse.vb" />
+    <Compile Include="App_Code\clsIIMembershipRate.vb" />
+    <Compile Include="App_Code\clsInvoices.vb" />
+    <Compile Include="App_Code\clsIV00101.vb" />
+    <Compile Include="App_Code\clsIV00102.vb" />
+    <Compile Include="App_Code\clsJobPosting.vb" />
+    <Compile Include="App_Code\clsJobPostingApplicant.vb" />
+    <Compile Include="App_Code\clsJobPostingApplication.vb" />
+    <Compile Include="App_Code\clsJobPostingEducation.vb" />
+    <Compile Include="App_Code\clsJobPostingExperience.vb" />
+    <Compile Include="App_Code\clsJobPostingReferences.vb" />
+    <Compile Include="App_Code\clsLead2List.vb" />
+    <Compile Include="App_Code\clsLeadDrawing.vb" />
+    <Compile Include="App_Code\clsLeadFileItems.vb" />
+    <Compile Include="App_Code\clsLeadFiles.vb" />
+    <Compile Include="App_Code\clsLeadLists.vb" />
+    <Compile Include="App_Code\clsLeadProgram.vb" />
+    <Compile Include="App_Code\clsLeadProgram2Device.vb" />
+    <Compile Include="App_Code\clsLeadProgram2HTML.vb" />
+    <Compile Include="App_Code\clsLeadProgram2Image.vb" />
+    <Compile Include="App_Code\clsLeadProgram2Location.vb" />
+    <Compile Include="App_Code\clsLeadProgramEntryForm.vb" />
+    <Compile Include="App_Code\clsLeads.vb" />
+    <Compile Include="App_Code\clsLeadTemplateMapping.vb" />
+    <Compile Include="App_Code\clsLeadTemplateMappingItems.vb" />
+    <Compile Include="App_Code\clsLeadTemplates.vb" />
+    <Compile Include="App_Code\clsLetters.vb" />
+    <Compile Include="App_Code\clsLetterTags.vb" />
+    <Compile Include="App_Code\clsLetterTagStyles.vb" />
+    <Compile Include="App_Code\clsLetterViews.vb" />
+    <Compile Include="App_Code\clsLF2CF.vb" />
+    <Compile Include="App_Code\clsLF2MF.vb" />
+    <Compile Include="App_Code\clsLGKiosk.vb" />
+    <Compile Include="App_Code\clsLGKioskCheck.vb" />
+    <Compile Include="App_Code\clsLGKioskConfig.vb" />
+    <Compile Include="App_Code\clsLGKioskConfig2Kiosk.vb" />
+    <Compile Include="App_Code\clsLGKioskConfigItems.vb" />
+    <Compile Include="App_Code\clsLGKioskLeads.vb" />
+    <Compile Include="App_Code\clsLGKioskUpdate.vb" />
+    <Compile Include="App_Code\clsLGKioskUpdateItems.vb" />
+    <Compile Include="App_Code\clsMaintenanceFeeCode2FinTrans.vb" />
+    <Compile Include="App_Code\clsMaintenanceFeeCodes.vb" />
+    <Compile Include="App_Code\clsMaintQuickCheck.vb" />
+    <Compile Include="App_Code\clsMortgage.vb" />
+    <Compile Include="App_Code\clsMortgageClosingCosts.vb" />
+    <Compile Include="App_Code\clsNotes.vb" />
+    <Compile Include="App_Code\clsNoteTemplates.vb" />
+    <Compile Include="App_Code\clsOnlineInventoryQuickCheck.vb" />
+    <Compile Include="App_Code\clsOwnerAccount.vb" />
+    <Compile Include="App_Code\clsOwnerFAQ.vb" />
+    <Compile Include="App_Code\clsPackage.vb" />
+    <Compile Include="App_Code\clsPackage2Letter.vb" />
+    <Compile Include="App_Code\clsPackage2WebSource.vb" />
+    <Compile Include="App_Code\clsPackageAdditionalCost.vb" />
+    <Compile Include="App_Code\clsPackageFinTransCode.vb" />
+    <Compile Include="App_Code\clsPackageIssued.vb" />
+    <Compile Include="App_Code\clsPackageIssued2Package.vb" />
+    <Compile Include="App_Code\clsPackageIssued2Room.vb" />
+    <Compile Include="App_Code\clsPackageLetters.vb" />
+    <Compile Include="App_Code\clsPackagePayment.vb" />
+    <Compile Include="App_Code\clsPackagePersonnel.vb" />
+    <Compile Include="App_Code\clsPackagePremium.vb" />
+    <Compile Include="App_Code\clsPackageRates.vb" />
+    <Compile Include="App_Code\clsPackageRateTable.vb" />
+    <Compile Include="App_Code\clsPackageReservation.vb" />
+    <Compile Include="App_Code\clsPackageReservation2CheckInDay.vb" />
+    <Compile Include="App_Code\clsPackageReservationFinTransCode.vb" />
+    <Compile Include="App_Code\clsPackageReservationPayment.vb" />
+    <Compile Include="App_Code\clsPackageReservationPersonnel.vb" />
+    <Compile Include="App_Code\clsPackageTour.vb" />
+    <Compile Include="App_Code\clsPackageTourFinTransCode.vb" />
+    <Compile Include="App_Code\clsPackageTourPayment.vb" />
+    <Compile Include="App_Code\clsPackageTourPersonnel.vb" />
+    <Compile Include="App_Code\clsPackageTourPremium.vb" />
+    <Compile Include="App_Code\clsPALRequest.vb" />
+    <Compile Include="App_Code\clsPALRequestDates.vb" />
+    <Compile Include="App_Code\clsPayment2Invoice.vb" />
+    <Compile Include="App_Code\clsPaymentMethod2Adjustment.vb" />
+    <Compile Include="App_Code\clsPayments.vb" />
+    <Compile Include="App_Code\clsPaymentSched2Invoice.vb" />
+    <Compile Include="App_Code\clsPaymentsScheduled.vb" />
+    <Compile Include="App_Code\clsPendingWordDocuments.vb" />
+    <Compile Include="App_Code\clsPendingWordDocumentValues.vb" />
+    <Compile Include="App_Code\clsPersonnal.vb" />
+    <Compile Include="App_Code\clsPersonnalFinanancialCxlPender.vb" />
+    <Compile Include="App_Code\clsPersonnel.vb" />
+    <Compile Include="App_Code\clsPersonnel2Dept.vb" />
+    <Compile Include="App_Code\clsPersonnel2Group.vb" />
+    <Compile Include="App_Code\clsPersonnel2Teams.vb" />
+    <Compile Include="App_Code\clsPersonnelGroup.vb" />
+    <Compile Include="App_Code\clsPersonnelMissedPunch.vb" />
+    <Compile Include="App_Code\clsPersonnelPunch.vb" />
+    <Compile Include="App_Code\clsPersonnelSecurityRequest.vb" />
+    <Compile Include="App_Code\clsPersonnelSecurityRequest2Group.vb" />
+    <Compile Include="App_Code\clsPersonnelTimeCards.vb" />
+    <Compile Include="App_Code\clsPersonnelTimeClock.vb" />
+    <Compile Include="App_Code\clsPersonnelTrans.vb" />
+    <Compile Include="App_Code\clsPhone.vb" />
+    <Compile Include="App_Code\clsPM00200.vb" />
+    <Compile Include="App_Code\clsPMBuilding.vb" />
+    <Compile Include="App_Code\clsPMItems.vb" />
+    <Compile Include="App_Code\clsPMItems2Location.vb" />
+    <Compile Include="App_Code\clsPMItems2Track.vb" />
+    <Compile Include="App_Code\clsPMTasks.vb" />
+    <Compile Include="App_Code\clsPMTeamMembers.vb" />
+    <Compile Include="App_Code\clsPMTeams.vb" />
+    <Compile Include="App_Code\clsPointsTracking.vb" />
+    <Compile Include="App_Code\clsPremium.vb" />
+    <Compile Include="App_Code\clsPremium2FinTrans.vb" />
+    <Compile Include="App_Code\clsPremiumBundlePremiums.vb" />
+    <Compile Include="App_Code\clsPremiumBundles.vb" />
+    <Compile Include="App_Code\clsPremiumIssued.vb" />
+    <Compile Include="App_Code\clsPreventiveMaintenance.vb" />
+    <Compile Include="App_Code\clsPrinterOID.vb" />
+    <Compile Include="App_Code\clsPrinterOIDValues.vb" />
+    <Compile Include="App_Code\clsPrinters.vb" />
+    <Compile Include="App_Code\clsProject2Area.vb" />
+    <Compile Include="App_Code\clsProject2Item.vb" />
+    <Compile Include="App_Code\clsProject2Room.vb" />
+    <Compile Include="App_Code\clsProjectAreas.vb" />
+    <Compile Include="App_Code\clsProjects.vb" />
+    <Compile Include="App_Code\clsProjectValues.vb" />
+    <Compile Include="App_Code\clsProspect.vb" />
+    <Compile Include="App_Code\clsProspectContact.vb" />
+    <Compile Include="App_Code\clsPurchaseRequest.vb" />
+    <Compile Include="App_Code\clsPurchaseRequestItems.vb" />
+    <Compile Include="App_Code\clsQueues.vb" />
+    <Compile Include="App_Code\clsQuickCheck.vb" />
+    <Compile Include="App_Code\clsQuickCheck2Item.vb" />
+    <Compile Include="App_Code\clsQuickCheckHist.vb" />
+    <Compile Include="App_Code\clsQuickCheckHist2Item.vb" />
+    <Compile Include="App_Code\clsQuickCheckItem.vb" />
+    <Compile Include="App_Code\clsRateTable.vb" />
+    <Compile Include="App_Code\clsRateTableHolidays.vb" />
+    <Compile Include="App_Code\clsRateTableRates.vb" />
+    <Compile Include="App_Code\clsRecordingFeesDeed.vb" />
+    <Compile Include="App_Code\clsRecordingFeesDoT.vb" />
+    <Compile Include="App_Code\clsReDeeds.vb" />
+    <Compile Include="App_Code\clsReDeedWiz.vb" />
+    <Compile Include="App_Code\clsRefundRequest.vb" />
+    <Compile Include="App_Code\clsRefundRequestApplyTo.vb" />
+    <Compile Include="App_Code\clsRefurb.vb" />
+    <Compile Include="App_Code\clsRefurb2Item.vb" />
+    <Compile Include="App_Code\clsRefurbHist.vb" />
+    <Compile Include="App_Code\clsRefurbHist2Item.vb" />
+    <Compile Include="App_Code\clsRefurbItem.vb" />
+    <Compile Include="App_Code\clsRegCard2ResType.vb" />
+    <Compile Include="App_Code\clsRegCardItems.vb" />
+    <Compile Include="App_Code\clsRegCards.vb" />
+    <Compile Include="App_Code\clsRegisterRawItem.vb" />
+    <Compile Include="App_Code\clsRentalPoolLimits.vb" />
+    <Compile Include="App_Code\clsRep2Pros.vb" />
+    <Compile Include="App_Code\clsReports.vb" />
+    <Compile Include="App_Code\clsRequest.vb" />
+    <Compile Include="App_Code\clsRequestPartLoan.vb" />
+    <Compile Include="App_Code\clsRequestPartMoves.vb" />
+    <Compile Include="App_Code\clsRequestParts.vb" />
+    <Compile Include="App_Code\clsRes2Golf.vb" />
+    <Compile Include="App_Code\clsReservationCheckIns.vb" />
+    <Compile Include="App_Code\clsReservationLetter2Location.vb" />
+    <Compile Include="App_Code\clsReservationLetter2Source.vb" />
+    <Compile Include="App_Code\clsReservationLetters.vb" />
+    <Compile Include="App_Code\clsReservations.vb" />
+    <Compile Include="App_Code\clsReservationWaitlist.vb" />
+    <Compile Include="App_Code\clsReservationWizard.vb" />
+    <Compile Include="App_Code\clsRoom2MaintTech.vb" />
+    <Compile Include="App_Code\clsRoomAllocationMatrix.vb" />
+    <Compile Include="App_Code\clsRoomMessages.vb" />
+    <Compile Include="App_Code\clsRooms.vb" />
+    <Compile Include="App_Code\clsRoomsOffline.vb" />
+    <Compile Include="App_Code\clsSalesInventory.vb" />
+    <Compile Include="App_Code\clsSalesInventory2ContractHist.vb" />
+    <Compile Include="App_Code\clsSalesRotor.vb" />
+    <Compile Include="App_Code\clsScript2Queue.vb" />
+    <Compile Include="App_Code\clsScripts.vb" />
+    <Compile Include="App_Code\clsSecurity.vb" />
+    <Compile Include="App_Code\clsSecurityGroups.vb" />
+    <Compile Include="App_Code\clsSecurityItem.vb" />
+    <Compile Include="App_Code\clsSecurityItem2Group.vb" />
+    <Compile Include="App_Code\clsSecurityItem2User.vb" />
+    <Compile Include="App_Code\clsSoldInventory.vb" />
+    <Compile Include="App_Code\clsSpecialNeeds.vb" />
+    <Compile Include="App_Code\clsSSLBrequest.vb" />
+    <Compile Include="App_Code\clsSSLBRequestDates.vb" />
+    <Compile Include="App_Code\clsTaxCodes.vb" />
+    <Compile Include="App_Code\clsTollNumber.vb" />
+    <Compile Include="App_Code\clsTour.vb" />
+    <Compile Include="App_Code\clsTourLetter2Campaign.vb" />
+    <Compile Include="App_Code\clsTourLetter2Location.vb" />
+    <Compile Include="App_Code\clsTourLetters.vb" />
+    <Compile Include="App_Code\clsTourWaveLimits.vb" />
+    <Compile Include="App_Code\clsUnit.vb" />
+    <Compile Include="App_Code\clsUnit2Unit.vb" />
+    <Compile Include="App_Code\clsUploadedDocs.vb" />
+    <Compile Include="App_Code\clsUsage.vb" />
+    <Compile Include="App_Code\clsUsageRestriction.vb" />
+    <Compile Include="App_Code\clsUsageRestriction2Contract.vb" />
+    <Compile Include="App_Code\clsUserFields.vb" />
+    <Compile Include="App_Code\clsVendor.vb" />
+    <Compile Include="App_Code\clsVendor2Package.vb" />
+    <Compile Include="App_Code\clsVendor2Personnel.vb" />
+    <Compile Include="App_Code\clsVendorRep2Tour.vb" />
+    <Compile Include="App_Code\clsVoiceStamps.vb" />
+    <Compile Include="App_Code\clsWord.vb" />
+    <Compile Include="App_Code\clsWorkOrder.vb" />
+    <Compile Include="App_Code\ICrystal.vb" />
+    <Compile Include="App_Code\IdName.vb" />
+    <Compile Include="App_Code\j_clsInvoices1.vb" />
+    <Compile Include="App_Code\modStructures.vb" />
+    <Compile Include="App_GlobalResources\Resource.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="crms.Master.designer.vb">
+      <DependentUpon>crms.Master</DependentUpon>
+    </Compile>
+    <Compile Include="crms.Master.vb">
+      <DependentUpon>crms.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Wizards\ReservationsBooking\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ReservationsBooking\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="crms.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\IISProfile.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Wizards\ReservationsBooking\MasterPage.master" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.min.map" />
+    <Content Include="Wizards\ReservationsBooking\Scripts\jQuery-3.6.0\jquery.slim.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53874</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53874/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

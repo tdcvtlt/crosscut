@@ -1,0 +1,11 @@
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\bin\crosscut.dll.config
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\bin\crosscut.dll
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\bin\crosscut.pdb
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\bin\crosscut.xml
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.vbproj.AssemblyReference.cache
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.Resources.resources
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.vbproj.GenerateResource.cache
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.vbproj.CoreCompileInputs.cache
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.dll
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.xml
+C:\Users\tdcvt\source\repos\NET4\Web\crosscut\crosscut\obj\Release\crosscut.pdb

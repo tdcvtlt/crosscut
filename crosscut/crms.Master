@@ -1,0 +1,21 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="crms.master.vb" Inherits="crosscut.crms" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+<%--    <script src='<%= ResolveUrl("~/Scripts/jquery-1.9.1.js") %>'></script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">            
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" id="form1">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel runat="server" ID="upMenu"></asp:UpdatePanel>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>    
+    </form>
+    
+</body>
+</html>

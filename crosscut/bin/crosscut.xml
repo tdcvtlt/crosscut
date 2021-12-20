@@ -1,0 +1,2338 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+crosscut
+</name>
+</assembly>
+<members>
+<member name="T:crosscut.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:crosscut.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:crosscut.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:crosscut.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:crosscut.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:crosscut.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:crosscut._Default1._Label23">
+<summary>
+Label23 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenField_LogonVendorID">
+<summary>
+HiddenField_LogonVendorID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldPersonnelID">
+<summary>
+HiddenFieldPersonnelID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldProspectID">
+<summary>
+HiddenFieldProspectID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldReservationID">
+<summary>
+HiddenFieldReservationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldCurrentEditedEmailID">
+<summary>
+HiddenFieldCurrentEditedEmailID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldCurrentEditedPhoneID">
+<summary>
+HiddenFieldCurrentEditedPhoneID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenFieldCurrentEditedAddressID">
+<summary>
+HiddenFieldCurrentEditedAddressID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenField_CurrentPanelID">
+<summary>
+HiddenField_CurrentPanelID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._HiddenField_ViewStateID">
+<summary>
+HiddenField_ViewStateID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ObjectDataSource_Reservation">
+<summary>
+ObjectDataSource_Reservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ObjectDataSource_Prospect">
+<summary>
+ObjectDataSource_Prospect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Reset_Controls">
+<summary>
+Button_Reset_Controls control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Wizard1">
+<summary>
+Wizard1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Welcome_WizardStep">
+<summary>
+Welcome_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPackagesForSales_WizardStep">
+<summary>
+ListPackagesForSales_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPackagesOfferedByVendor_WizardStep">
+<summary>
+ListPackagesOfferedByVendor_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._SearchProspect_WizardStep">
+<summary>
+SearchProspect_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPendingReservations_WizardStep">
+<summary>
+ListPendingReservations_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditProspect_WizardStep">
+<summary>
+EditProspect_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditTour_WizardStep">
+<summary>
+EditTour_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditReservation_WizardStep">
+<summary>
+EditReservation_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._AssignRooms_WizardStep">
+<summary>
+AssignRooms_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ReAssignRooms_WizardStep">
+<summary>
+ReAssignRooms_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditHotel_WizardStep">
+<summary>
+EditHotel_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ProcesPayment_WizardStep">
+<summary>
+ProcesPayment_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ProcessRefund_WizardStep">
+<summary>
+ProcessRefund_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditNotes_WizardStep">
+<summary>
+EditNotes_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Confirmation_WizardStep">
+<summary>
+Confirmation_WizardStep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Welcome_Panel">
+<summary>
+Welcome_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label66">
+<summary>
+Label66 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._RadioButton_Welcome_Option_1">
+<summary>
+RadioButton_Welcome_Option_1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label67">
+<summary>
+Label67 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._RadioButton_Welcome_Option_2">
+<summary>
+RadioButton_Welcome_Option_2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label68">
+<summary>
+Label68 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._RadioButton_Welcome_Option_3">
+<summary>
+RadioButton_Welcome_Option_3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label69">
+<summary>
+Label69 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._RadioButton_Welcome_Option_4">
+<summary>
+RadioButton_Welcome_Option_4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_Search_Available_Packages_For_Rebooking">
+<summary>
+GridView_Search_Available_Packages_For_Rebooking control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPackagesForSales_Panel">
+<summary>
+ListPackagesForSales_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_PackageTypes">
+<summary>
+DropDownList_PackageTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_PackageSubTypes">
+<summary>
+DropDownList_PackageSubTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_UnitTypes">
+<summary>
+DropDownList_UnitTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_RoomSizes">
+<summary>
+DropDownList_RoomSizes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Search_CheckIn">
+<summary>
+TextBox_Search_CheckIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Search_CheckOut">
+<summary>
+TextBox_Search_CheckOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Search_Nights">
+<summary>
+DropDownList_Search_Nights control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Search_Available_Packages_For_Purchasing">
+<summary>
+Button_Search_Available_Packages_For_Purchasing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label63">
+<summary>
+Label63 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Search_Available_Packages_CostMin">
+<summary>
+TextBox_Search_Available_Packages_CostMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label64">
+<summary>
+Label64 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Search_Available_Packages_CostMax">
+<summary>
+TextBox_Search_Available_Packages_CostMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label62">
+<summary>
+Label62 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Search_Available_Packages_Price_Total">
+<summary>
+TextBox_Search_Available_Packages_Price_Total control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_ListPackagesForSales">
+<summary>
+GridView_ListPackagesForSales control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPackagesOfferedByVendor_Panel">
+<summary>
+ListPackagesOfferedByVendor_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_ListPackagesOfferedByVendor_CheckIn">
+<summary>
+TextBox_ListPackagesOfferedByVendor_CheckIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBoxListPackagesOfferedByVendor_CheckOut">
+<summary>
+TextBoxListPackagesOfferedByVendor_CheckOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_ListPackagesOfferedByVendor_Nights">
+<summary>
+DropDownList_ListPackagesOfferedByVendor_Nights control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ButtonListPackagesOfferedByVendor_Search_Submit">
+<summary>
+ButtonListPackagesOfferedByVendor_Search_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditProspect_Panel">
+<summary>
+EditProspect_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._MultiView_Prospect">
+<summary>
+MultiView_Prospect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Prospect_Main">
+<summary>
+View_Prospect_Main control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Prospect_ProspectID">
+<summary>
+TextBox_Prospect_ProspectID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Prospect_FirstName">
+<summary>
+TextBox_Prospect_FirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Prospect_LastName">
+<summary>
+TextBox_Prospect_LastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Spouse_FirstName">
+<summary>
+TextBox_Spouse_FirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_SpouseLastName">
+<summary>
+TextBox_SpouseLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_MaritalStatusID">
+<summary>
+DropDownList_MaritalStatusID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_Emails">
+<summary>
+GridView_Emails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_Phones">
+<summary>
+GridView_Phones control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_Addresses">
+<summary>
+GridView_Addresses control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Prospect_Edit_Email">
+<summary>
+View_Prospect_Edit_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label17">
+<summary>
+Label17 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label_Edit_Email">
+<summary>
+Label_Edit_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Email_Address">
+<summary>
+TextBox_Email_Address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_Email_IsPrimary">
+<summary>
+CheckBox_Email_IsPrimary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label15">
+<summary>
+Label15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_Email_IsActive">
+<summary>
+CheckBox_Email_IsActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Email_Submit">
+<summary>
+Button_Edit_Email_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Email_Cancel">
+<summary>
+Button_Edit_Email_Cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Prospect_Edit_Phone">
+<summary>
+View_Prospect_Edit_Phone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label_Edit_Phone">
+<summary>
+Label_Edit_Phone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label19">
+<summary>
+Label19 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Phone_Number">
+<summary>
+TextBox_Phone_Number control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label20">
+<summary>
+Label20 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Phone_Extension">
+<summary>
+TextBox_Phone_Extension control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label21">
+<summary>
+Label21 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Phone_TypeID">
+<summary>
+DropDownList_Phone_TypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label22">
+<summary>
+Label22 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_Phone_Active">
+<summary>
+CheckBox_Phone_Active control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Phone_Cancel">
+<summary>
+Button_Edit_Phone_Cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Phone_Submit">
+<summary>
+Button_Edit_Phone_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Prospect_Edit_Address">
+<summary>
+View_Prospect_Edit_Address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label24">
+<summary>
+Label24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label_Edit_Address">
+<summary>
+Label_Edit_Address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label25">
+<summary>
+Label25 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Address1">
+<summary>
+TextBox_Address1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label26">
+<summary>
+Label26 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Address2">
+<summary>
+TextBox_Address2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label27">
+<summary>
+Label27 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_City">
+<summary>
+TextBox_City control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label28">
+<summary>
+Label28 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_StateID">
+<summary>
+DropDownList_StateID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label29">
+<summary>
+Label29 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_PostalCode">
+<summary>
+TextBox_PostalCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label30">
+<summary>
+Label30 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Region">
+<summary>
+TextBox_Region control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label31">
+<summary>
+Label31 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_CountryID">
+<summary>
+DropDownList_CountryID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label32">
+<summary>
+Label32 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Address_TypeID">
+<summary>
+DropDownList_Address_TypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label33">
+<summary>
+Label33 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_ActiveFlag">
+<summary>
+CheckBox_ActiveFlag control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label34">
+<summary>
+Label34 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_ContractAddress">
+<summary>
+CheckBox_ContractAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Address_Cancel">
+<summary>
+Button_Edit_Address_Cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_Address_Submit">
+<summary>
+Button_Edit_Address_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditReservation_Panel">
+<summary>
+EditReservation_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_ReservationID">
+<summary>
+TextBox_ReservationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label18">
+<summary>
+Label18 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Reservation_Number">
+<summary>
+TextBox_Reservation_Number control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label35">
+<summary>
+Label35 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_LocationID">
+<summary>
+DropDownList_Reservation_LocationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label36">
+<summary>
+Label36 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Reservation_CheckIn">
+<summary>
+TextBox_Reservation_CheckIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label37">
+<summary>
+Label37 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Reservation_CheckOut">
+<summary>
+TextBox_Reservation_CheckOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label38">
+<summary>
+Label38 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_Total_Nights">
+<summary>
+DropDownList_Reservation_Total_Nights control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label40">
+<summary>
+Label40 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Reservation_DateBooked">
+<summary>
+TextBox_Reservation_DateBooked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label39">
+<summary>
+Label39 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_Resort_CompanyID">
+<summary>
+DropDownList_Reservation_Resort_CompanyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label41">
+<summary>
+Label41 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._CheckBox_Reservation_LockInventory">
+<summary>
+CheckBox_Reservation_LockInventory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label42">
+<summary>
+Label42 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_StatusID">
+<summary>
+DropDownList_Reservation_StatusID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label48">
+<summary>
+Label48 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Reservation_StatusDate">
+<summary>
+TextBox_Reservation_StatusDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label43">
+<summary>
+Label43 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_TypeID">
+<summary>
+DropDownList_Reservation_TypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label44">
+<summary>
+Label44 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_SubTypeID">
+<summary>
+DropDownList_Reservation_SubTypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label45">
+<summary>
+Label45 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_Adults">
+<summary>
+DropDownList_Reservation_Adults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label46">
+<summary>
+Label46 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_Children">
+<summary>
+DropDownList_Reservation_Children control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label47">
+<summary>
+Label47 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Reservation_SourceID">
+<summary>
+DropDownList_Reservation_SourceID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditTour_Panel">
+<summary>
+EditTour_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._MultiView_Tour">
+<summary>
+MultiView_Tour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Tour">
+<summary>
+View_Tour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_TourID">
+<summary>
+TextBox_TourID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_TourDate">
+<summary>
+TextBox_TourDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourStatusID">
+<summary>
+DropDownList_TourStatusID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label49">
+<summary>
+Label49 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_CampaignID">
+<summary>
+DropDownList_CampaignID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label50">
+<summary>
+Label50 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourTypeID">
+<summary>
+DropDownList_TourTypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label51">
+<summary>
+Label51 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourSourceID">
+<summary>
+DropDownList_TourSourceID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label65">
+<summary>
+Label65 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourDate">
+<summary>
+DropDownList_TourDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label52">
+<summary>
+Label52 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourTime">
+<summary>
+DropDownList_TourTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label53">
+<summary>
+Label53 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourLocationID">
+<summary>
+DropDownList_TourLocationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label54">
+<summary>
+Label54 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_TourSubTypeID">
+<summary>
+DropDownList_TourSubTypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label55">
+<summary>
+Label55 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_BookingDate">
+<summary>
+TextBox_BookingDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_ListPremiums">
+<summary>
+GridView_ListPremiums control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_Premium_Edit">
+<summary>
+View_Premium_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label56">
+<summary>
+Label56 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownListList_Premiums">
+<summary>
+DropDownListList_Premiums control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label57">
+<summary>
+Label57 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Premium_Cert">
+<summary>
+TextBox_Premium_Cert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label58">
+<summary>
+Label58 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Premium_Cost">
+<summary>
+TextBox_Premium_Cost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label59">
+<summary>
+Label59 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Premium_CostEA">
+<summary>
+TextBox_Premium_CostEA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label60">
+<summary>
+Label60 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Premium_QtyAssigned">
+<summary>
+DropDownList_Premium_QtyAssigned control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Label61">
+<summary>
+Label61 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Premium_StatusID">
+<summary>
+DropDownList_Premium_StatusID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_PremiumIssued_Cancel">
+<summary>
+Button_Edit_PremiumIssued_Cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Edit_PremiumIssued_Submit">
+<summary>
+Button_Edit_PremiumIssued_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._SearchProspect_Panel">
+<summary>
+SearchProspect_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_SearchProspect_Text">
+<summary>
+TextBox_SearchProspect_Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_SearchProspect_Options">
+<summary>
+DropDownList_SearchProspect_Options control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_SearchProspect_Search">
+<summary>
+Button_SearchProspect_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_SearchProspect_New">
+<summary>
+Button_SearchProspect_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Gridview_SearchProspect_Result">
+<summary>
+Gridview_SearchProspect_Result control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ListPendingReservations_Panel">
+<summary>
+ListPendingReservations_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_ListPendngReservations">
+<summary>
+GridView_ListPendngReservations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._AssignRooms_Panel">
+<summary>
+AssignRooms_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._MultiView_AssignRooms">
+<summary>
+MultiView_AssignRooms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_AssignRooms_Result">
+<summary>
+View_AssignRooms_Result control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_AssignRooms_Result">
+<summary>
+GridView_AssignRooms_Result control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._View_AssignRooms_Select">
+<summary>
+View_AssignRooms_Select control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._GridView_AssignRooms_Select">
+<summary>
+GridView_AssignRooms_Select control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_AssignRooms_Select_Cancel">
+<summary>
+Button_AssignRooms_Select_Cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ReAssignRooms_Panel">
+<summary>
+ReAssignRooms_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditHotel_Panel">
+<summary>
+EditHotel_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Hotel_ConfirmationNumber">
+<summary>
+TextBox_Hotel_ConfirmationNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Hotel_ReservationLocationID">
+<summary>
+DropDownList_Hotel_ReservationLocationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Hotel_AccommodationID">
+<summary>
+DropDownList_Hotel_AccommodationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Hotel_CheckInLocationID">
+<summary>
+DropDownList_Hotel_CheckInLocationID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Hotel_GuestTypeID">
+<summary>
+DropDownList_Hotel_GuestTypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._DropDownList_Hotel_RoomTypeID">
+<summary>
+DropDownList_Hotel_RoomTypeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Hotel_ArrivalDate">
+<summary>
+TextBox_Hotel_ArrivalDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._TextBox_Hotel_DepartureDate">
+<summary>
+TextBox_Hotel_DepartureDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ProcesPayment_Panel">
+<summary>
+ProcesPayment_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._ProcessRefund_Panel">
+<summary>
+ProcessRefund_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._EditNotes_Panel">
+<summary>
+EditNotes_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Confirmation_Panel">
+<summary>
+Confirmation_Panel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut._Default1._Button_Save">
+<summary>
+Button_Save control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="M:crosscut.clsCXLPender.GetCXLPenderAmountToDate(System.DateTime,System.DateTime)">
+ <summary>
+ Get amount paid todate, contract no. etc. whose status changed from pender to cancelled pender within date range
+ </summary>
+ <param name="startDate"></param>
+ <param name="endDate"></param>
+ <remarks></remarks>
+</member>
+<member name="M:crosscut.clsCXLPender.GetCXLPenderInDates(System.DateTime,System.DateTime)">
+ <summary>
+ Get Event objects for contract statuses from Pender to CXL-Pender that changed over a date range.
+ </summary>
+ <param name="startDate"></param>
+ <param name="endDate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:crosscut.clsPersonnel.Get_PersonnelID_By_SID(System.String)">
+ <summary>
+ Get Personnel ID, given ADSID as the parameter
+ </summary> 
+</member>
+<member name="M:crosscut.clsPersonnel.Get_DepartmentID_By_PersonnelID(System.Int32,System.Int32)">
+ <summary>
+ Get Department ID, given id of the person and company as the parameters
+ </summary>
+</member>
+<member name="T:crosscut.clsPreventiveMaintenance.Item2ItemTracks">
+ <summary>
+ Retrieves all Item2TrackID for each room or building
+ </summary>
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Create_Schedules(System.Int32,System.Int32,System.DateTime)">
+ <summary>
+ Integer parameters are in months
+ </summary>
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Item_Dates(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Get the life span, the interval, date created and date removed by the Item2TrackID returned as a string array
+ </summary>       
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Get_Item2TrackID(System.Int32,System.Int16)">
+ <summary>
+ Returns the Item2TrackID, pass in either taskID or pmItemID as parameter
+ </summary>
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Get_Schedules(System.Int32,System.Int32)">
+ <summary>
+ Returns all schedules by taskID and pmItemID parameters
+ </summary>
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Delete_Schedules(System.String[])">
+ <summary>
+ Deletes schedules given an array of ID
+ </summary>        
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Schedule_By_RequestID(System.Int32)">
+ <summary>
+ Get TaskID and PMItemID in a string array
+ </summary>       
+</member>
+<member name="M:crosscut.clsPreventiveMaintenance.Schedule.Schedule_Update(System.Int32)">
+ <summary>
+ Deletes all schedules since the last one (request with work order), then re-create new schedules
+ </summary>
+</member>
+<member name="M:crosscut.clsReservationWizard.Base_Package.Get_RateTable_ID(System.Int32)">
+ <summary>
+             String.Format("Data Source=sql1;Initial Catalog=CRMSNet;Persist Security Info=True;User ID=asp;Password=aspnet")
+ </summary>
+</member>
+<member name="M:crosscut.clsReservationWizard.Base_Package.Get_Package_Reservation_Type_ID(System.Int32)">
+ <summary>
+ Looks up the t_PackageReservation table for the TypeID
+ </summary>
+ <param name="package_id"></param>
+ <returns></returns>
+</member>
+<member name="M:crosscut.clsReservationWizard.Base_Package.Get_Package_Unit_Type_ID(System.Int32)">
+ <summary>
+ Looks up the t_Package table for the UnitTypeID
+ </summary>
+ <param name="package_id"></param>
+ <returns></returns>
+</member>
+<member name="P:crosscut.clsTourWaveLimits.TourWaveLimitsID">
+ <summary>
+ Table primary key
+ </summary>    
+</member>
+<member name="M:crosscut.clsTourWaveLimits.GetLocations">
+ <summary>
+ Returns all active tour locations
+ </summary>
+</member>
+<member name="M:crosscut.clsTourWaveLimits.GetViewLimits(System.DateTime,System.Int32)">
+ <summary>
+ Retrieves past records stopped at 1 day prior today's date.
+ </summary>
+</member>
+<member name="M:crosscut.clsTourWaveLimits.GetViewLimits(System.Int32,System.DateTime,System.Int32)">
+ <summary>
+ Records retrieved from particular Start Date and campaign type name
+ </summary>
+</member>
+<member name="M:crosscut.clsTourWaveLimits.Exists(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32)">
+ <summary>
+ Check the existence for particular campaign type name, tour wave, start date and end date 
+ </summary>
+</member>
+<member name="T:crosscut.Resources.Resource">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:crosscut.Resources.Resource.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:crosscut.Resources.Resource.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:crosscut.Resources.Resource.cns">
+<summary>
+  Looks up a localized string similar to data source=localhost,1433;initial catalog=basic_duty;user=sa;password=Hung@121212;persist security info=False;packet size=4096;Connection Timeout=120;.
+</summary>
+</member>
+<member name="P:crosscut.Resources.Resource.cns_1">
+<summary>
+  Looks up a localized string similar to data source=localhost\sqlexpress;initial catalog=CRMSNet;user=sa;persist security info=False;packet size=4096;Connection Timeout=120;.
+</summary>
+</member>
+<member name="F:crosscut.crms._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut.crms._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut.crms._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut.crms._upMenu">
+<summary>
+upMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:crosscut.crms._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

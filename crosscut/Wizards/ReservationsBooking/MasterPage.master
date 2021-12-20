@@ -1,0 +1,21 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/crms.master" AutoEventWireup="false" CodeFile="MasterPage.master.vb" Inherits="Wizards_ReservationsBooking_MasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" Runat="Server">
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    <link rel="stylesheet" href='<%= ResolveUrl("materialize-css/css/materialize.min.css") %>' />
+    <script type="text/javascript" src='<%= ResolveUrl("Scripts/jQuery-3.6.0/jquery.min.js") %>'></script>
+    <asp:ContentPlaceHolder ID="Head2" runat="server">  
+           
+            <script type="text/javascript" src="../../Scripts/moment.js"></script>
+
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="../../Scripts/jquery-ui-1.12.0.custom/jquery-ui.min.css" />
+    <script type="text/javascript" src="../../Scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">                            
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
